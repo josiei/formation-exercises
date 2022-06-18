@@ -12,7 +12,7 @@
 
 
 */
-function Insertion(array){
+function insertionSort(array){
 
   for(let i = 1; i < array.length; i++){
     for(let j = 0; j <= i; j++){
@@ -26,19 +26,19 @@ function Insertion(array){
   return array;
 }
 
-function insertionSort(array) {
-  for (let i = 1; i < array.length; i++) {
-      let key = array[i];
-      let j = i - 1;
-      console.log("j", j)
-      while (j >= 0 && array[j] > key) {
-          array[j + 1] = array[j];
-          j = j - 1;
-      }
-      array[j + 1] = key;
-  }
-  return array;
-};
+// function insertionSort(array) {
+//   for (let i = 1; i < array.length; i++) {
+//       let key = array[i];
+//       let j = i - 1;
+//       console.log("j", j)
+//       while (j >= 0 && array[j] > key) {
+//           array[j + 1] = array[j];
+//           j = j - 1;
+//       }
+//       array[j + 1] = key;
+//   }
+//   return array;
+// }
 // console.log(Insertion([1,3,6,7,0,19]))
 // console.log(Insertion([]))
 console.log(insertionSort([100, 25, 52]))

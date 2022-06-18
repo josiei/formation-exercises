@@ -3,9 +3,8 @@
  * @param {string} guess
  * @return {string}
  */
- var getHint = function(secret, guess) {
+const getHint = function(secret, guess) {
   let bulls = 0;
-  let cows = 0;
   let buckets = [0,0,0,0,0,0,0,0,0,0];
   let possibleCows = 0;
 
@@ -26,3 +25,5 @@
 
   return `${bulls}A${secret.length - bulls - possibleCows}B`
 };
+
+console.log(getHint())
