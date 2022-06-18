@@ -1,9 +1,14 @@
+/* eslint-disable no-unused-vars */
 // Singly-linked lists are already defined with this interface:
 // function ListNode(x) {
 //   this.value = x;
 //   this.next = null;
 // }
 //
+class ListNode {
+
+}
+
 function solution(head1, head2) {
   let current1 = head1;
   let current2 = head2;

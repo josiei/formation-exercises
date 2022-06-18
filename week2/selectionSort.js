@@ -8,12 +8,10 @@
     min = 4
 
     [  1,   2,   4,   3,   5  ]
-                 i
-                           j
   1. Create a min variable
   2. Set our min to the position at array i i
   3. Initialize our pointers i, being at the 0th index, j being i + 1;
-  4. Iterate through the array – checking to see if any input is lesser than the value at min
+  4. Iterate through the array,checking to see if any input is lesser than the value at min
       - if min needs update, set min to the smaller value
   5. Swap our index with min if needed.
   6. Return the array
