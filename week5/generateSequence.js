@@ -10,4 +10,4 @@ function generateSequence(target){
   return matrix;
 }
 
-console.log(generateSequence(3))
+console.log(generateSequence(3));
